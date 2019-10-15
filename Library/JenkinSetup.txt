@@ -17,8 +17,15 @@ Step 2 - On local Machine
         All Saved files  will be  in Untrack status initially
         Convert untrack state to Stage by using command "git add "file name" OR git add .
         Convert Stage status to Track files (only after this you can commit)
-        Add Commit - git commit -m "add your message here"
+        Convert Staged file back to Untrack - git reset HEAD "file name"
+       -  Add Commit - git commit -m "add your message here"
+       -  Convert untrack state to Stage by using command "git add "file name" OR git add .
+       -  Convert Stage status to Track files (only after this you can commit)
+       -  Add Commit - git commit -m "add your message here"
+	   -  Convert Staged file back to Untrack - git reset HEAD FILE NAME
+	   -  Check all changes done in fiels "git dif FILE NAME"
+	   -  Revert all changes done for specific File "git checkout FILE NAME"
 	
-	Convert Staged file back to Untrack - git reset HEAD "file name"
+
 
 
