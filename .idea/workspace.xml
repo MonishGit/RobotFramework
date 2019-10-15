@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de4fbc6e-c219-4755-8e22-7c0aeba39543" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/EelementLocator.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/JenkinSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/JenkinSetup.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Library/JenkinSetup.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="88" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
+            <state relative-caret-position="306">
+              <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -90,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1935" />
@@ -115,29 +116,6 @@
               <item name="Creating_NewFramework" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Creating_NewFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Creating_NewFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="Library" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Creating_NewFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Creating_NewFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="Test Cases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Creating_NewFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Creating_NewFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="Creating_NewFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="PyCharm Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -145,6 +123,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Automation Practice/Resources" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -288,12 +267,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.ExcelExtract" />
+      <item itemvalue="Python.Locator" />
+      <item itemvalue="Python.Parameterization_Excel" />
+      <item itemvalue="Python.Read Excel" />
       <item itemvalue="Python.driver" />
       <item itemvalue="Python.workingwithJson" />
-      <item itemvalue="Python.Locator" />
-      <item itemvalue="Python.Read Excel" />
-      <item itemvalue="Python.Parameterization_Excel" />
-      <item itemvalue="Python.ExcelExtract" />
     </list>
     <recent_temporary>
       <list>
@@ -320,15 +299,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1548" height="876" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4966443" visible="true" weight="0.16997355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966443" visible="true" weight="0.16997355" />
       <window_info id="Structure" order="1" sideWeight="0.5033557" side_tool="true" weight="0.24933863" />
       <window_info id="Favorites" order="2" sideWeight="0.50067115" side_tool="true" weight="0.24933863" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35436243" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -437,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Library/JenkinSetup.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="88" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
+        <state relative-caret-position="306">
+          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
         </state>
       </provider>
     </entry>
