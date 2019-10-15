@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20191014 11:57:42.756" generator="Robot 3.1.1 (Python 2.7.16 on win32)">
+<suite source="C:\Users\mopawar\PycharmProjects\Creating_NewFramework\Resource_second level Keyword\Keyword for Exceldata.robot" id="s1" name="Keyword for Exceldata">
+<test id="s1-t1" name="Sample test">
+<kw name="Read number of rows in give Excel">
+<arguments>
+<arg>Test3</arg>
+</arguments>
+<kw name="find_max_rows">
+<arguments>
+<arg>${Sheetname}</arg>
+</arguments>
+<assign>
+<var>${rows}=</var>
+</assign>
+<msg timestamp="20191014 11:57:44.092" level="FAIL">No keyword with name 'find_max_rows' found.</msg>
+<status status="FAIL" endtime="20191014 11:57:44.092" starttime="20191014 11:57:44.092"></status>
+</kw>
+<status status="FAIL" endtime="20191014 11:57:44.092" starttime="20191014 11:57:44.087"></status>
+</kw>
+<status status="FAIL" endtime="20191014 11:57:44.093" critical="yes" starttime="20191014 11:57:44.086">No keyword with name 'find_max_rows' found.</status>
+</test>
+<status status="FAIL" endtime="20191014 11:57:44.096" starttime="20191014 11:57:42.761"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Keyword for Exceldata" pass="0">Keyword for Exceldata</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20191014 11:57:44.082" level="ERROR">Error in file 'C:\Users\mopawar\PycharmProjects\Creating_NewFramework\Resource_second level Keyword\Keyword for Exceldata.robot': Importing test library 'C:\Users\mopawar\PycharmProjects\Creating_NewFramework\Library\Parameterization_Excel.py' failed: NameError: name 'C1' is not defined
+Traceback (most recent call last):
+  File "C:\Users\mopawar\PycharmProjects\Creating_NewFramework\Library\Parameterization_Excel.py", line 9, in &lt;module&gt;
+    print (C1.value)
+PYTHONPATH:
+  C:\Python27\Scripts\robot.exe
+  C:\WINDOWS\SYSTEM32\python27.zip
+  c:\python27\DLLs
+  c:\python27\lib
+  c:\python27\lib\plat-win
+  c:\python27\lib\lib-tk
+  c:\python27
+  c:\python27\lib\site-packages
+  c:\python27\lib\site-packages\win32
+  c:\python27\lib\site-packages\win32\lib
+  c:\python27\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>

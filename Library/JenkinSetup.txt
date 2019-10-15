@@ -1,0 +1,20 @@
+Step 1 - On GITHUB
+
+Go to Github.com
+    Create account
+    Create new repository (for free account always public repo)
+    copy Link created for repository (e.g. https://github.com/MonishGit/RobotFramework.git)
+
+    RobotFramework
+
+
+Step 2 - On local Machine
+    Download git bash
+    configure username and email address (git config --global user.name "MonishGit" and git config --global user.email "pawarmonish@gmail.com"
+    Create Local repository
+        open Git and create one folder where you want to save your project
+        Save automation work in that folder
+        All Saved files  will be  in Untrack state
+        Conver untrack state to Stage by using command "git add "file name" OR git add .
+        
+

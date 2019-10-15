@@ -1,0 +1,8 @@
+{
+	"Login_Page":
+	{
+		"User_name_name":"os_username",
+		"password":"//input[@type='password']",
+		"click_button":"//input[@name='login']"
+	}
+}

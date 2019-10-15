@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20191015 13:51:45.613" generator="Robot 3.1.1 (Python 2.7.16 on win32)">
+<suite source="C:\Users\mopawar\PycharmProjects\Creating_NewFramework\Test Cases\Fetch Data from excel.robot" id="s1" name="Fetch Data from excel">
+<test id="s1-t1" name="First test case which will Featch excel data using resource and python file">
+<kw name="Read number of rows in give Excel" library="Keyword for Exceldata">
+<arguments>
+<arg>Test3</arg>
+</arguments>
+<assign>
+<var>${rows}</var>
+</assign>
+<kw name="find max rows">
+<arguments>
+<arg>${Sheetname}</arg>
+</arguments>
+<assign>
+<var>${rows}=</var>
+</assign>
+<msg timestamp="20191015 13:51:47.394" level="FAIL">No keyword with name 'find max rows' found.</msg>
+<status status="FAIL" endtime="20191015 13:51:47.394" starttime="20191015 13:51:47.393"></status>
+</kw>
+<status status="FAIL" endtime="20191015 13:51:47.394" starttime="20191015 13:51:47.388"></status>
+</kw>
+<doc>this test is important for data parameterization</doc>
+<tags>
+<tag>abcde</tag>
+</tags>
+<status status="FAIL" endtime="20191015 13:51:47.395" critical="yes" starttime="20191015 13:51:47.386">No keyword with name 'find max rows' found.</status>
+</test>
+<status status="FAIL" endtime="20191015 13:51:47.400" starttime="20191015 13:51:45.621"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+<stat fail="1" pass="0">abcde</stat>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Fetch Data from excel" pass="0">Fetch Data from excel</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20191015 13:51:47.378" level="ERROR">Error in file 'C:\Users\mopawar\PycharmProjects\Creating_NewFramework\Resource_second level Keyword\Keyword for Exceldata.robot': Importing test library 'C:\Users\mopawar\PycharmProjects\Creating_NewFramework\Library\ExcelExtract.py' failed: AttributeError: 'int' object has no attribute 'upper'
+Traceback (most recent call last):
+  File "C:\Users\mopawar\PycharmProjects\Creating_NewFramework\Library\ExcelExtract.py", line 28, in &lt;module&gt;
+    print   obj.find_cell_data('Test3',1,1)
+  File "C:\Users\mopawar\PycharmProjects\Creating_NewFramework\Library\ExcelExtract.py", line 22, in find_cell_data
+    cell_data = unicode(sh1.cell(row,column).value)
+  File "c:\python27\lib\site-packages\openpyxl\worksheet\worksheet.py", line 301, in cell
+    row, column = coordinate_to_tuple(coordinate)
+  File "c:\python27\lib\site-packages\openpyxl\utils\cell.py", line 179, in coordinate_to_tuple
+    col, row = coordinate_from_string(coordinate)
+  File "c:\python27\lib\site-packages\openpyxl\utils\cell.py", line 45, in coordinate_from_string
+    match = COORD_RE.match(coord_string.upper())
+PYTHONPATH:
+  C:\Python27\Scripts\robot.exe
+  C:\WINDOWS\SYSTEM32\python27.zip
+  c:\python27\DLLs
+  c:\python27\lib
+  c:\python27\lib\plat-win
+  c:\python27\lib\lib-tk
+  c:\python27
+  c:\python27\lib\site-packages
+  c:\python27\lib\site-packages\win32
+  c:\python27\lib\site-packages\win32\lib
+  c:\python27\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>
