@@ -17,5 +17,7 @@ Step 2 - On local Machine
         All Saved files  will be  in Untrack state
         Convert untrack state to Stage by using command "git add "file name" OR git add .
         Convert Stage status to Track files (only after this you can commit)
+	
+	Convert Staged file back to Untrack - git reset HEAD "file name"
 
 
