@@ -25,7 +25,32 @@ Step 2 - On local Machine
 	   -  Convert Staged file back to Untrack - git reset HEAD FILE NAME
 	   -  Check all changes done in fiels "git dif FILE NAME"
 	   -  Revert all changes done for specific File "git checkout FILE NAME"
+
+Step 3 - Linkage between Local repository(Git) and Remot repository(Git HUB)
+        - check if you have remote repository already  "git remote --v" this will show no response if no remote repository located
+        - Link remote repository - "git remote add origin "Link copied in step1"
 	
+
+Step 4 - Push code on Master branch ("git push origin master")
+
+Step 5 (for other users) - Clone repository
+                         - Create new work location in new user matchine
+                         - navigate to that folder and clone repo "git clone "URL noted in step 1"
+
+
+
+
+ *** Running code in Jenkin itself
+Step 1 - Create Batch files
+            Open notepad enter all libraris you want to run as a part of code along with pip install command
+                e.g. pip install robotframework
+                     pip install robotframework-SeleniumLibrary
+                     pip install robotframework-requests
+
+                Save your file in .bat extention e.g. lib.bat
+
+            - Setup Driver - This is required to run your test case on diff platform e.g. chrome driver for web test, appium for mobile
+                             Go to Python2.7>Script copy chromedriver.exe - create folder "driver" in project and paste .exe
 
 
 
