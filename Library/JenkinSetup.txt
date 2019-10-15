@@ -14,9 +14,10 @@ Step 2 - On local Machine
     Create Local repository
         open Git and create one folder where you want to save your project
         Save automation work in that folder
-        All Saved files  will be  in Untrack state
+        All Saved files  will be  in Untrack status initially
         Convert untrack state to Stage by using command "git add "file name" OR git add .
         Convert Stage status to Track files (only after this you can commit)
+        Add Commit - git commit -m "add your message here"
 	
 	Convert Staged file back to Untrack - git reset HEAD "file name"
 
