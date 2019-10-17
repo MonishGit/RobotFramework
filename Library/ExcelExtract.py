@@ -8,20 +8,19 @@ __all__ = ['find_max_rows','find_cell_data']
 
 # Step 1 Max rows
 
-class ExcelExtract ():
+# class ExcelExtract ():
 
-    def find_max_rows(self,sheetname1):
-        sh1 = wk[sheetname1]
-        return sh1.max_row
+def find_max_rows(self,sheetname1):
+    sh1 = wk[sheetname1]
+    return sh1.max_row
 
     # Step 2 identify cell data
 
 # def find_cell_data(self,sheetname1, row, column)
-    def find_cell_data (self, sheetname,row,column):
-        sh1 = wk[sheetname]
-        cell_data = unicode(sh1.cell(row,column).value)
-        # cell_data = sh1[row,column]
-        return  cell_data
+def find_cell_data (self, sheetname,row,column):
+    sh1 = wk[sheetname]
+    cell_data = unicode(sh1.cell(row,column).value)
+    return  cell_data
 
 obj= ExcelExtract()
 

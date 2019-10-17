@@ -38,8 +38,6 @@ Step 5 (for other users) - Clone repository
                          - navigate to that folder and clone repo "git clone "URL noted in step 1"
 
 
-
-
  *** Running code in Jenkin itself
 Step 1 - Create Batch files
             Open notepad enter all libraris you want to run as a part of code along with pip install command
@@ -51,6 +49,61 @@ Step 1 - Create Batch files
 
             - Setup Driver - This is required to run your test case on diff platform e.g. chrome driver for web test, appium for mobile
                              Go to Python2.7>Script copy chromedriver.exe - create folder "driver" in project and paste .exe
+
+
+**********************Setup Jenkins********************* IMP
+
+Step 1 - Download jdk 1.8 from oracal site
+            run .exe and verify it java installed succesfully by - open CMD run java -version
+
+Step 2 - Download jenkin War file -
+            navigate to the location where war file saved
+            to Setup Jenkin portal - Open CMD and run command = "java -jar jenkins.war --httpPort=8080" (this is default port you can set anything around 808*)
+            open browser search for localhost:8080
+            Install all suggested plugins
+
+Step 3 - Configure Java Path
+            Click on Manage Jenkins option on Jenkin portal - Global Tool Configuration
+            Click on Add JDK - Name = JAV_HOMES
+            Give Full path to JDK folder e.g. C:\Program Files\Java\jdk1.2
+
+         - Configure GIT Path
+            Click on Add Git - Name = GIT_HOMES
+            Give full path to Git e.g. C:\Program Files\Git\bin
+
+         - Python setup
+            Install latest Python.exe - Run it and save custimize the location to C:
+            Go to Mycomputer and sentup enviroment variable for python on path variable
+            Open Jenkins Go to Manage Jenkins - Configuration
+            Go to Gobal properties - Environment variable
+            Enter Name = Python_homes
+            Python path = C:\Python38
+            Add another variable = Python_script  and Path  C:/Python38/Scripts (make sure you have chrome driver exe under script folder, this is required to run web app)
+
+
+Step 4- Configure jenkin reporting tool - Allure report
+        - Install Allure plugin - open Jenkin > Click on Manage plugin > Install Allure Plugin
+        - Download Allure command line (this is Zip file on Github) - this converts xml report in html
+        - Configure Commandline tool in Jenkins - Open Manage Goble variable - Add Allure command line path
+        - Check if All global variables are setup succesfully - Click on New project and wait to create project - check Git is available on dashboard and Allure under Postbuild actions - Allure report
+
+Step 5 - Crate Job on Jenkins
+        - Fetch Code from Github - Go to Jenkins open New Item (free stype)
+            -Source code management - Select Git - Pass Github URL of your project  - Apply and Save
+            - Click on Build now - Check console output is success
+
+        - Set environment veriable and Libraries - click on Configure project - Buid - Add- Executable windows batch command-
+            - in Command box - Set Path=%Python_Home%;%Path%
+                             -
+
+
+
+
+
+
+
+
+
 
 
 
