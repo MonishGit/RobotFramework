@@ -17,8 +17,8 @@ Firt test case to import json file
      open Browser   ${URL}  ${browser}
      sleep  5s
      ${Username} =  Locator Name     Login_Page.User_name_name
-     input text     name:${Username}  Mpawar5
-     input text     xpath://input[@type='password']  Greenday@1
+     input text     name:${Username}
+     input text     xpath://input[@type='password']
      click button   xpath://input[@name='login']
      close Browser
 

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de4fbc6e-c219-4755-8e22-7c0aeba39543" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Library/ExcelExtract.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ExcelExtract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/JenkinSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/JenkinSetup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Cases/First Test case.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Test Cases/First Test case.robot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +46,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test Cases/First Test case.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#167#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Library/JenkinSetup.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
+            <state relative-caret-position="884">
               <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
             </state>
           </provider>
@@ -60,6 +71,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test Cases/RobotCoderTest.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -85,7 +105,6 @@
         <option value="$PROJECT_DIR$/Library/Write Excel.py" />
         <option value="$PROJECT_DIR$/Library/workingwithJson.py" />
         <option value="$PROJECT_DIR$/Data/EelementLocator.json" />
-        <option value="$PROJECT_DIR$/Test Cases/First Test case.robot" />
         <option value="$PROJECT_DIR$/Library/Locator.py" />
         <option value="$PROJECT_DIR$/Test Cases/RobotCoderTest.robot" />
         <option value="$PROJECT_DIR$/Library/Read Excel.py" />
@@ -95,6 +114,7 @@
         <option value="$PROJECT_DIR$/Batchfiles/jenkins_batch_lib.bat" />
         <option value="$PROJECT_DIR$/Library/ExcelExtract.py" />
         <option value="$PROJECT_DIR$/Library/JenkinSetup.txt" />
+        <option value="$PROJECT_DIR$/Test Cases/First Test case.robot" />
       </list>
     </option>
   </component>
@@ -143,6 +163,11 @@
               <item name="Creating_NewFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Creating_NewFramework" type="462c0819:PsiDirectoryNode" />
               <item name="Library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Creating_NewFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Creating_NewFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="Test Cases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -363,13 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test Cases/RobotCoderTest.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Library/Read Excel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -391,16 +409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test Cases/First Test case.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#167#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -431,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test Cases/Fetch Data from excel.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Library/ExcelExtract.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -454,8 +455,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Library/JenkinSetup.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
+        <state relative-caret-position="884">
           <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Cases/Fetch Data from excel.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Cases/RobotCoderTest.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Cases/First Test case.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#167#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
